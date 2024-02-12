@@ -14,9 +14,10 @@
   --swtich-bg-url: url(./imagens/moon-stars.svg);
 }
 
+
 .light {
   --text-color: rgb(255, 255, 255);
-  --bg-url: url(./imagens/auto.JPG);
+  --bg-url: url(./imagens/auto.jpg);
   --stroke-color: rgb(0, 0, 0);
   --surface-color: rgba(0, 0, 0, 0.007);
   --surface-color-hover: (0, 0, 0, 0, 0.142);
@@ -26,6 +27,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100uh;
 }
 
 body * {
@@ -156,3 +158,13 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+@media (min-width: 700px) {
+    :root {
+      --bg-url: url(./imagens/ferrari2.JPG);
+    }
+    }
+
+    .light {
+      --bg-url: url(./imagens/auto.jpg)
+    }
