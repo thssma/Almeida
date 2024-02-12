@@ -18,7 +18,7 @@ Criador de Conteudos no Youtube, Instagram e TikTok. Grande fã de disgner autom
 <br>
 
 <p align="center">
-  <img alt="NSProject" src=".github/nspro.jpg" width="100%">
+  <img alt="NSProject" src="github/nspro.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
