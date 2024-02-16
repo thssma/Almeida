@@ -38,7 +38,7 @@ body * {
 #container {
   width: 100%x;
   max-width: 580px;
-  margin: 56px auto 0px;
+  margin: 100px auto 0px;
   padding: 0 24px;
 }
 
@@ -72,18 +72,23 @@ body * {
 
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: slide-back 0.02s;
 }
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.02s forwards;
+}
+
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
   display: block;
-  width: 64px;
+  width: 4px;
   height: 24px;
   background: var(--surface-color);
   background: var(--stroke-color);
@@ -168,3 +173,20 @@ footer {
     .light {
       --bg-url: url(./imagens/auto.jpg)
     }
+
+    @keyframes slide-in {
+      from {
+        left: 0;
+      }
+      to {
+        left: 50%;
+      }
+    }
+    @keyframes slide-back {
+      from {
+        left: 50%;
+      }
+      to {
+        left: 0;
+    }
+  }
