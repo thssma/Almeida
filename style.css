@@ -6,7 +6,7 @@
 
 :root {
   --text-color: rgb(255, 255, 255);
-  --bg-url: url(./imagens/ferrari2.JPG);
+  --bg-url: url(./imagens/lo);
   --stroke-color: rgb(0, 0, 0);
   --surface-color: rgba(2, 7, 0, 0.171);
   --surface-color-hover: (0, 0, 0, 0, 0.142);
@@ -17,7 +17,7 @@
 
 .light {
   --text-color: rgb(255, 255, 255);
-  --bg-url: url(./imagens/auto.jpg);
+  --bg-url: url(./imagens/auto.JPG);
   --stroke-color: rgb(0, 0, 0);
   --surface-color: rgba(0, 0, 0, 0.007);
   --surface-color-hover: (0, 0, 0, 0, 0.142);
@@ -36,10 +36,10 @@ body * {
 }
 
 #container {
-  width: 100%x;
-  max-width: 580px;
-  margin: 100px auto 0px;
-  padding: 0 24px;
+  width: 100%;
+  max-width: 380px;
+  margin: 350px auto 0px;
+  padding: 0 50px;
 }
 
 #profile {
@@ -48,17 +48,18 @@ body * {
 }
 
 #profile img {
-  width: 112px;
-}
+  width: 122px;
+  
+  }
 
 #profile p {
-  font-weight: 500;
+  font-weight: 800;
   line-height: 24px;
   margin-top: 8px;
 }
 #switch {
   position: relative;
-  width: 64px;
+  width: 65px;
 
   margin: 20px auto;
   }
